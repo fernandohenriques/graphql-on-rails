@@ -1,4 +1,4 @@
-module Mutations
+module Resolvers::Mutations
   class CreateLink < BaseMutation
     argument :description, String, required: true
     argument :url, String, required: true

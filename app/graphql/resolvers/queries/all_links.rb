@@ -1,4 +1,4 @@
-module Queries
+module Resolvers::Queries
   class AllLinks < BaseQuery
     type [Types::LinkType], null: false
 
