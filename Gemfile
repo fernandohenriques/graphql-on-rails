@@ -5,7 +5,7 @@ ruby '2.5.1'
 
 gem 'rails', '~> 5.2.3'
 gem 'sqlite3', github: "sparklemotion/sqlite3-ruby"
-gem 'puma', '~> 3.11'
+gem 'puma', '~> 3.12'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
